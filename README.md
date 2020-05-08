@@ -12,7 +12,7 @@ El curso es impartido por Juan Ramos
 
 ## Galeria
 
-![LaravelAndroid.png](imagenesRepo/LaravelAndroid.png)
+![LaravelAndroid.png](imagenesRep/LaravelAndroid.png)
 
 ## Lo que se aprendera 
 
