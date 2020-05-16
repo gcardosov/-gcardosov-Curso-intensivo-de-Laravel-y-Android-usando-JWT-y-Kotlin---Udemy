@@ -13,7 +13,7 @@
                 </div>
             @else
                 <div class="text-center text-muted mb-4">
-                    <smal>Iniciar sesión</small>
+                    <smal>Ingresa tud datos para iniciar sesión.</small>
                 </div>
             @endif
 
