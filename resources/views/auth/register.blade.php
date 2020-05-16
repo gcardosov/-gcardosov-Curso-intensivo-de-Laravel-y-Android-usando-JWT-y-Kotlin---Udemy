@@ -1,5 +1,8 @@
 @extends('layouts.form')
 
+@section('title', 'Registro')
+@section('subtitle', 'Ingresa tus datos para registrarte.')
+
 @section('content')
 <div class="container mt--8 pb-5">
       <!-- Table -->
@@ -11,10 +14,6 @@
             @if ($errors->any())
                 <div class="alert alert-danger" role="alert">
                     {{ $errors->first() }}
-                </div>
-            @else
-                <div class="text-center text-muted mb-4">
-                    <smal>Ingresa tus datos para registrarte.</small>
                 </div>
             @endif
 

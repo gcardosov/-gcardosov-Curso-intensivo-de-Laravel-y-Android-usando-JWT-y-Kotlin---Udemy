@@ -1,5 +1,8 @@
 @extends('layouts.form')
 
+@section('title', 'Inicio de sesión')
+@section('subtitle', 'Ingresa tus datos para iniciar sesión')
+
 @section('content')
 <div class="container mt--8 pb-5">
       <div class="row justify-content-center">
@@ -11,12 +14,8 @@
                 <div class="alert alert-danger" role="alert">
                     {{ $errors->first() }}
                 </div>
-            @else
-                <div class="text-center text-muted mb-4">
-                    <smal>Ingresa tud datos para iniciar sesión.</small>
-                </div>
             @endif
-
+          
              <form role="form" method="POST" action="{{ route('login') }}">
               @csrf
 
